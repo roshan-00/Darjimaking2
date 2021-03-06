@@ -8,9 +8,9 @@ from SIFT_detector import od_SIFT
 from ORB_detector import od_ORB
 
 # Loading original template image
-img = 'images/phone.png'
+img = 'images/phone.png'    //path of image if working in the same directory then img = 'images/box_in_scene.png'
 template = cv2.imread(img)
-cv2.imshow(r"C:\Users\KIIT\Downloads\ComputerVision-Projects-master\ComputerVision-Projects-master\ObjectDetection\images\box_in_scene.png", 0)
+cv2.imshow("Display Image", template)
 cv2.waitKey(0)
 
 # Initialize videoCapture
